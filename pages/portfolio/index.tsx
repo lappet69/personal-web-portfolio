@@ -14,7 +14,7 @@ const index = () => {
                     <MainNavbar />
                 </div>
                 <div className='flex h-screen flex-col justify-center items-center'>
-                    <h3>The portfolio is in the process of moving</h3>
+                    <h3>Portfolios are in the process of being transferred to this website.</h3>
                     <Link href='/' className='py-2 px-4 shadow-2xl bg-[#eaeaea] rounded-md hover:scale-75'>Go back</Link>
                 </div>
             </div>
