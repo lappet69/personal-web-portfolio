@@ -1,6 +1,7 @@
 import MainNavbar from '@/components/MainNavbar'
 import React from 'react'
 import Head from 'next/head'
+import Link from 'next/link'
 
 const index = () => {
     return (
@@ -14,7 +15,7 @@ const index = () => {
                 </div>
                 <div className='flex h-screen flex-col justify-center items-center'>
                     <h3>The portfolio is in the process of moving</h3>
-                    <a href='/' className='py-2 px-4 shadow-2xl bg-[#eaeaea] rounded-md hover:scale-75'>Go back</a>
+                    <Link href='/' className='py-2 px-4 shadow-2xl bg-[#eaeaea] rounded-md hover:scale-75'>Go back</Link>
                 </div>
             </div>
         </>
