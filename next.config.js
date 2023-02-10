@@ -6,6 +6,6 @@ const nextConfig = {
 module.exports = {
   nextConfig,
   images: {
-    domains: ["images.glints.com"],
+    domains: ["images.glints.com", "placeimg.com", "https://picsum.photos"],
   },
 };
