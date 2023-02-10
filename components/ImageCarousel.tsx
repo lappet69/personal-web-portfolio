@@ -56,9 +56,9 @@ const ImageCarousel: React.FC<{ images?: ImageType[] }> = ({ images }) => {
     return (
         <div className="w-full drop-shadow-2xl">
             <div
-                className="w-full  mb-2 rounded-t-lg relative"
+                className="w-full h-[360px] mb-2 rounded-t-lg relative"
             >
-                <Image src={selectedImage?.url} alt="" width={960} height={960} className="w-full sm:min-h-[360px] lg:min-h-[400px]" />
+                <Image src={selectedImage?.url} alt="" width={960} height={960} className="w-full h-full" />
             </div>
             <div className="">
                 <div className="carousel__images flex max-w-full overflow-x-hidden px-4 ">
