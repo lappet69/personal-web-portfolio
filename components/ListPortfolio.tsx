@@ -14,7 +14,7 @@ const ListPortfolio = ({ portfolios }: Props) => {
             {portfolios.map((item, idx) => {
                 let images = item.imageSrc?.map((item, idx) => { return { id: idx, url: item.ref?.src } })
                 return (
-                    <Portfolio portfolio={item} key={idx} children={<ImageCarousel images={images} />} />)
+                    <Portfolio portfolio={item} key={idx} images={images} />)
             }
             )}
         </div>

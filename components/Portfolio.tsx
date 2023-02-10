@@ -9,14 +9,14 @@ import ImageCarousel, { ImageType } from './ImageCarousel';
 
 interface Props {
     portfolio: IPortfolio
-    children: JSX.Element
+    images: any
 }
 
-const Portfolio = ({ portfolio, children }: Props) => {
+const Portfolio = ({ portfolio, images }: Props) => {
     return (
         <div className='flex flex-col items-center  rounded-lg shadow-lg ' >
             <div className='w-full flex'>
-                {children}
+                <ImageCarousel images={images} />
             </div>
             <div className='w-full flex flex-col  p-3 gap-2'>
                 <p className='text-lg'>{portfolio.title}</p>
