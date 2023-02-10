@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
 import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io'
 
 export type ImageType = any;
@@ -57,7 +58,7 @@ const ImageCarousel: React.FC<{ images?: ImageType[] }> = ({ images }) => {
             <div
                 className="w-full  mb-2 rounded-t-lg relative"
             >
-                <img src={selectedImage?.url} alt="" className="w-full sm:min-h-[360px] lg:min-h-[400px]" />
+                <Image src={selectedImage?.url} alt="" width={960} height={960} className="w-full sm:min-h-[360px] lg:min-h-[400px]" />
             </div>
             <div className="">
                 <div className="carousel__images flex max-w-full overflow-x-hidden px-4 ">
