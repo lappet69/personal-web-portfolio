@@ -21,6 +21,8 @@ import {
   resume3,
   resume4,
   resume5,
+  skincare1,
+  skincare2,
   webarchitect1,
   webarchitect2,
 } from "../public/asset/portfolio/index";
@@ -123,6 +125,17 @@ const data = [
       { id: 4, ref: coffee4 },
     ],
     demoUrl: "",
+  },
+  {
+    _id: 10,
+    title: "Web Skincare",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, risus eu congue malesuada, libero libero commodo libero, id congue magna sapien at tellus. Aliquam erat volutpat. In hac habitasse platea dictumst. Praesent bibendum euismod ligula, non vulputate leo placerat et.",
+    imageSrc: [
+      { id: 1, ref: skincare1 },
+      { id: 2, ref: skincare2 },
+    ],
+    demoUrl: "https://sevira-store.vercel.app/",
   },
 ];
 
