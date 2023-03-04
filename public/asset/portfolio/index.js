@@ -23,3 +23,5 @@ export { default as coffee3 } from "./coffee-bisnis-3.jpg";
 export { default as coffee4 } from "./coffee-bisnis-4.jpg";
 export { default as skincare1 } from "./skincare1.jpg";
 export { default as skincare2 } from "./skincare2.jpg";
+export { default as skincare3 } from "./skincare3.jpg";
+export { default as skincare4 } from "./skincare4.jpg";
