@@ -1,11 +1,7 @@
 import { IPortfolio } from '@/interface/interface'
 import Link from 'next/link'
-import { cutStr, defaultImg } from '@/utils/global'
-import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
-import ImageCarousel, { ImageType } from './ImageCarousel';
+import 'react-multi-carousel/lib/styles.css'
+import ImageCarousel from './ImageCarousel'
 
 interface Props {
     portfolio: IPortfolio

@@ -1,6 +1,4 @@
-import { IPortfolio, IPortfolioImage } from '@/interface/interface'
-import React from 'react'
-import ImageCarousel from './ImageCarousel'
+import { IPortfolio } from '@/interface/interface'
 import Portfolio from './Portfolio'
 
 interface Props {

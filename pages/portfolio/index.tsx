@@ -1,10 +1,8 @@
-import MainNavbar from '@/components/MainNavbar'
-import React from 'react'
-import Head from 'next/head'
-import Link from 'next/link'
 import ListPortfolio from '@/components/ListPortfolio'
-import { fetchLocalData } from '@/utils/global'
+import MainNavbar from '@/components/MainNavbar'
 import { IPortfolio, IPortfolioImage } from '@/interface/interface'
+import { fetchLocalData } from '@/utils/global'
+import Head from 'next/head'
 
 interface Props {
     portfolios: IPortfolio[];
@@ -29,7 +27,7 @@ const index = ({ portfolios }: Props) => {
 }
 
 export default index
-export async function getStaticProps() {
+export async function getServerSideProps() {
     let data = fetchLocalData()
     let portfolios = data.map((item) => {
         return { _id: item._id, title: item.title, description: item.description, imageSrc: item?.imageSrc?.map((el, id) => { return { id: el.id, ref: (el?.ref || null) } }), demoUrl: item.demoUrl };

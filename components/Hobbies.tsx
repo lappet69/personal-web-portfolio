@@ -1,8 +1,7 @@
-import React from 'react'
-import { TbMovie } from 'react-icons/tb'
 import { FcReading } from 'react-icons/fc'
 import { IoGameControllerOutline } from 'react-icons/io5'
 import { MdOutlineSportsKabaddi } from 'react-icons/md'
+import { TbMovie } from 'react-icons/tb'
 
 const hobbies = [
     { id: 1, name: 'Movies', icon: <TbMovie /> },

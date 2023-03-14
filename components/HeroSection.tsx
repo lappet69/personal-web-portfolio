@@ -1,5 +1,3 @@
-import React from 'react'
-import Image from 'next/image'
 import HeroText from './HeroText'
 import MainNavbar from './MainNavbar'
 
@@ -13,10 +11,9 @@ const HeroSection = () => {
                 {/* <Image  alt="" /> */}
                 <div className='min-h-[320px] min-w-[320px]  bg-white rounded-full  border-white border-4  bg-profile bg-center bg-cover'>
                 </div>
-                <HeroText name='Andre Sinabariba' job='Software Engineer' desc='' />
+                <HeroText name='Andre Sinabariba' job='Fullstack Web Developer' desc='' />
             </div>
-            {/* <div className='w-full flex flex-col items-center justify-center py-5 gap-10'>
-            </div> */}
+
         </div>
     )
 }

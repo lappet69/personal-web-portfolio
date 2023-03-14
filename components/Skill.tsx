@@ -1,5 +1,5 @@
-import { SiTypescript, SiMongodb, SiCss3, SiHtml5, SiJavascript, SiNextdotjs, SiReact, SiExpress, SiPostgresql, SiMysql, SiGoland, SiFlutter, SiPhp } from 'react-icons/si'
 import { FaNodeJs } from 'react-icons/fa'
+import { SiCss3, SiExpress, SiGoland, SiHtml5, SiJavascript, SiMongodb, SiMysql, SiNextdotjs, SiPhp, SiPostgresql, SiReact, SiTypescript } from 'react-icons/si'
 
 const skills = [
     { id: 1, name: 'HTML', icon: <SiHtml5 />, },

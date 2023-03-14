@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const expreiences = [
     { id: 1, company: "PT Okanemo Worldwide Indonesia", location: "Jakarta, Indonesia", date: "Sep 2022 - Nov 2022", position: "Junior Backend Developer", descriptionOfJob: ["Design and create REST API for client's requirement", "Create a documentation REST API", "Responsible for conducting positive and negative case tests at each endpoint", "Collaborate with 4 team members"] },

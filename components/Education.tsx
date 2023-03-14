@@ -1,4 +1,3 @@
-import React from 'react'
 
 export const educations = [
     { id: 1, school: "Binar Academy", location: "Jakarta, Indonesia", date: "Nov 2020 - Jun 2021", position: "Certificate in Fullstack Web Development", descriptionOfJob: ["Designing Web API and compiling API Documentation", "Implementing Realtime Database Service(Firebase)", "Implemented Redux and Server SideRendering (SSR)", "Implementing Continuous Integration (CI/CD)"] },

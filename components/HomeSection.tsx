@@ -1,6 +1,5 @@
 import Education from './Education'
 import Experience from './Experience'
-import Hobbies from './Hobbies'
 import Profile from './Profile'
 import Skill from './Skill'
 

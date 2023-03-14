@@ -1,6 +1,6 @@
-import React, { useEffect, useRef, useState } from "react";
 import Image from "next/image";
-import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io'
+import React, { useEffect, useRef, useState } from "react";
+import { IoIosArrowDropleft, IoIosArrowDropright } from 'react-icons/io';
 
 export type ImageType = any;
 
