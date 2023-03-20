@@ -1,5 +1,4 @@
 import { IPortfolio } from '@/interface/interface'
-import Link from 'next/link'
 import 'react-multi-carousel/lib/styles.css'
 import ImageCarousel from './ImageCarousel'
 
@@ -17,8 +16,7 @@ const Portfolio = ({ portfolio, images }: Props) => {
             <div className='w-full flex flex-col  p-3 gap-2'>
                 <p className='text-lg'>{portfolio.title}</p>
                 {/* <p className='text-justify flex flex-wrap overflow-hidden hover:overflow-y-auto'>{cutStr(portfolio?.description, 150)}</p> */}
-                {portfolio?.demoUrl &&
-                    <Link href={portfolio?.demoUrl || ""} passHref target={'_blank'}>Live Preview </Link>}
+
             </div>
         </div >
     )

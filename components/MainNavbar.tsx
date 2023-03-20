@@ -8,7 +8,7 @@ const MainNavbar = () => {
     return (
         <header className="w-screen  bg-transparent border-none abosolute py-4 px-6 leading-6 bg-cover lg:py-5 lg:px-12 ">
             <div className="flex justify-between items-center mx-auto max-w-screen-xl text-gray-700">
-                <Link className="cursor-pointer" href="/"><Image height={50} width={50} className="block max-w-full h-14 align-middle" alt="No alt" src={'/asset/logo_transparent.png'} /></Link>
+                <Link className="cursor-pointer" href="/"><Image height={50} width={50} className="block max-w-full h-auto w-auto align-middle" alt="No alt" src={'/asset/logo_transparent.png'} /></Link>
                 <nav className="hidden flex-row justify-center items-center w-auto font-semibold gap-x-12 md:flex text-white">
                     <Link className="cursor-pointer hover:scale-110" href="/portfolio">Portfolio</Link>
                 </nav>
