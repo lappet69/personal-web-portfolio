@@ -9,6 +9,8 @@ import {
   coffee4,
   ecomerce1,
   ecomerce2,
+  mv1,
+  mv2,
   news1,
   restoapp1,
   restoapp2,
@@ -68,7 +70,7 @@ const data = [
       { id: 1, ref: webarchitect1 },
       { id: 2, ref: webarchitect2 },
     ],
-    demoUrl: "https://lappet69.github.io/webarchitect/",
+    demoUrl: "",
   },
   {
     _id: 5,
@@ -110,7 +112,7 @@ const data = [
       { id: 1, ref: cart1 },
       { id: 2, ref: cart2 },
     ],
-    demoUrl: "https://eclectic-chebakia-85ab6c.netlify.app/",
+    demoUrl: "",
   },
   {
     _id: 9,
@@ -136,7 +138,18 @@ const data = [
       { id: 3, ref: skincare3 },
       { id: 4, ref: skincare4 },
     ],
-    demoUrl: "https://sevira-beauty.vercel.app/",
+    demoUrl: "https://sevira-store.vercel.app/",
+  },
+  {
+    _id: 10,
+    title: "Marflix Movie App",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, risus eu congue malesuada, libero libero commodo libero, id congue magna sapien at tellus. Aliquam erat volutpat. In hac habitasse platea dictumst. Praesent bibendum euismod ligula, non vulputate leo placerat et.",
+    imageSrc: [
+      { id: 1, ref: mv1 },
+      { id: 2, ref: mv2 },
+    ],
+    demoUrl: "https://marflix-movie-app.vercel.app/",
   },
 ];
 

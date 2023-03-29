@@ -25,3 +25,5 @@ export { default as skincare1 } from "./skincare1.jpg";
 export { default as skincare2 } from "./skincare2.jpg";
 export { default as skincare3 } from "./skincare3.jpg";
 export { default as skincare4 } from "./skincare4.jpg";
+export { default as mv1 } from "./mv1.jpg";
+export { default as mv2 } from "./mv2.jpg";
