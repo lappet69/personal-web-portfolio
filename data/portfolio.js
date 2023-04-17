@@ -9,6 +9,10 @@ import {
   coffee4,
   ecomerce1,
   ecomerce2,
+  marshop1,
+  marshop2,
+  marshop3,
+  marshop4,
   mv1,
   mv2,
   news1,
@@ -150,6 +154,19 @@ const data = [
       { id: 2, ref: mv2 },
     ],
     demoUrl: "https://marflix-movie-app.vercel.app/",
+  },
+  {
+    _id: 11,
+    title: "Marshop Ecommerce App",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, risus eu congue malesuada, libero libero commodo libero, id congue magna sapien at tellus. Aliquam erat volutpat. In hac habitasse platea dictumst. Praesent bibendum euismod ligula, non vulputate leo placerat et.",
+    imageSrc: [
+      { id: 1, ref: marshop1 },
+      { id: 2, ref: marshop2 },
+      { id: 3, ref: marshop3 },
+      { id: 4, ref: marshop4 },
+    ],
+    demoUrl: "https://marshop-ecommerce-app.vercel.app/",
   },
 ];
 
