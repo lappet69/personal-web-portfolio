@@ -1,3 +1,6 @@
+export { default as api1 } from "./api1.png";
+export { default as api2 } from "./api2.png";
+export { default as api3 } from "./api3.png";
 export { default as blog1 } from "./blog-gaming-1.jpg";
 export { default as blog2 } from "./blog-gaming-2.jpg";
 export { default as cart2 } from "./cart-2.jpg";

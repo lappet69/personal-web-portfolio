@@ -1,4 +1,7 @@
 import {
+  api1,
+  api2,
+  api3,
   blog1,
   blog2,
   cart1,
@@ -167,6 +170,18 @@ const data = [
       { id: 4, ref: marshop4 },
     ],
     demoUrl: "https://marshop-ecommerce-app.vercel.app/",
+  },
+  {
+    _id: 12,
+    title: "API's Collection",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, risus eu congue malesuada, libero libero commodo libero, id congue magna sapien at tellus. Aliquam erat volutpat. In hac habitasse platea dictumst. Praesent bibendum euismod ligula, non vulputate leo placerat et.",
+    imageSrc: [
+      { id: 1, ref: api1 },
+      { id: 3, ref: api3 },
+      { id: 2, ref: api2 },
+    ],
+    demoUrl: "https://github.com/lappet69/api-collection",
   },
 ];
 
