@@ -181,7 +181,7 @@ const data = [
       { id: 3, ref: api3 },
       { id: 2, ref: api2 },
     ],
-    demoUrl: "https://github.com/lappet69/api-collection",
+    demoUrl: "https://api-collection-alpha.vercel.app/",
   },
 ];
 
