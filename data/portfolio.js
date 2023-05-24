@@ -12,6 +12,10 @@ import {
   coffee4,
   ecomerce1,
   ecomerce2,
+  lp1,
+  lp2,
+  lp3,
+  lp4,
   marshop1,
   marshop2,
   marshop3,
@@ -182,6 +186,19 @@ const data = [
       { id: 2, ref: api2 },
     ],
     demoUrl: "https://api-collection-alpha.vercel.app/",
+  },
+  {
+    _id: 13,
+    title: "Landing Page | Albatech",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, risus eu congue malesuada, libero libero commodo libero, id congue magna sapien at tellus. Aliquam erat volutpat. In hac habitasse platea dictumst. Praesent bibendum euismod ligula, non vulputate leo placerat et.",
+    imageSrc: [
+      { id: 1, ref: lp1 },
+      { id: 2, ref: lp2 },
+      { id: 3, ref: lp3 },
+      { id: 4, ref: lp4 },
+    ],
+    demoUrl: "https://reactjs-landing-page-seven.vercel.app/",
   },
 ];
 
