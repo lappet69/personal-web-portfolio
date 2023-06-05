@@ -1,18 +1,22 @@
 export interface IPortfolio {
-    _id?: number;
-    title?: string;
-    description?: string | undefined;
-    imageSrc?: IPortfolioImage[];
-    demoUrl?: string;
+  _id?: number;
+  title?: string;
+  description?: string | undefined;
+  imageSrc?: IPortfolioImage[];
+  demoUrl?: string;
 }
 
 export interface IPortfolioImage {
-    id: number;
-    ref?: StaticImage;
+  id: number;
+  ref?: StaticImage;
 }
 export interface StaticImage {
-    src: string;
-    height: number;
-    width: number;
-    blurDataURL: string;
+  src: string;
+  height: number;
+  width: number;
+  blurDataURL: string;
+}
+
+interface Window {
+  gtag?: (command: string, ...args: any[]) => void;
 }
